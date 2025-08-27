@@ -20,7 +20,7 @@ abstract class AbstractClassifier
         return $this->ml->predict($text);
     }
 
-    private function train(array $samples, array $labels)
+    private function train(array $samples, array $labels): void
     {
         $this->ml->train($samples, $labels);
     }
