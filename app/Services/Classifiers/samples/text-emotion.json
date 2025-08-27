@@ -1,0 +1,74 @@
+{
+    "joy": [
+        "I am so happy today",
+        "This is wonderful news",
+        "I feel amazing",
+        "I'm thrilled with this result",
+        "This made my day",
+        "I love spending time with you",
+        "Everything is fantastic",
+        "I can't stop smiling",
+        "Such a joyful experience",
+        "I feel very lucky"
+    ],
+    "sadness": [
+        "I feel so sad",
+        "This is really depressing",
+        "I can't stop crying",
+        "I'm heartbroken",
+        "Everything seems hopeless",
+        "I feel lonely",
+        "Nothing feels right",
+        "I'm really disappointed",
+        "This makes me unhappy",
+        "I feel miserable"
+    ],
+    "anger": [
+        "I am so angry right now",
+        "This is infuriating",
+        "I can't believe this happened",
+        "You make me mad",
+        "I hate this situation",
+        "This is unacceptable",
+        "I am frustrated",
+        "This really irritates me",
+        "I'm furious",
+        "Why would anyone do this?"
+    ],
+    "fear": [
+        "I am scared",
+        "This is frightening",
+        "I feel nervous about it",
+        "I'm worried something bad will happen",
+        "This makes me anxious",
+        "I don't know what to do",
+        "I'm trembling with fear",
+        "This situation terrifies me",
+        "I'm very uneasy",
+        "I feel unsafe"
+    ],
+    "surprise": [
+        "I can't believe this",
+        "What a shocking news",
+        "This is unexpected",
+        "I am amazed",
+        "I didn't see that coming",
+        "This is unbelievable",
+        "Wow, that's incredible",
+        "I am astonished",
+        "What a pleasant surprise",
+        "I am speechless"
+    ],
+    "disgust": [
+        "This is disgusting",
+        "I feel nauseated",
+        "That's revolting",
+        "I can't stand this",
+        "This is gross",
+        "I am repulsed",
+        "This makes me sick",
+        "I find this offensive",
+        "I detest it",
+        "Absolutely awful"
+    ]
+}
