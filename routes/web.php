@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TextController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::prefix('api')->group(function () {
+    Route::post('/texts/classify', [TextController::class, 'classify']);
 });

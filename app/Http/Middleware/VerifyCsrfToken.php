@@ -12,6 +12,6 @@ class VerifyCsrfToken extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        //
+        'api/texts/classify', // @internal It cannot be disabled on real situation, I'm disabling because it's a simple PoC
     ];
 }
