@@ -16,12 +16,12 @@ class TextController extends Controller
 
         $phpml = app(Phpml::class);
 
-        $emotion = (new TextEmotionService($phpml))->predict([$phrase]);
         $hateDetector = (new TextHateDeterctorService($phpml))->predict([$phrase]);
+        $emotion = (new TextEmotionService($phpml))->predict([$phrase]);
 
         return response()->json([
             'emotion' => $emotion,
-            'is_hate' => $hateDetector,
+            'is_hate' => $hateDetector === TextHateDeterctorService::HATE_LABEL_RESULT,
         ]);
     }
 }
